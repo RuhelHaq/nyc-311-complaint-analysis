@@ -1,12 +1,14 @@
 # nyc-311-complaint-analysis
-## The City That Never Sleeps...But Complins a Lot!
+## The City That Never Sleeps...But Complains a Lot!
 
-Common keywords in NYC 311 complaints  
+![Top Complaint Zip Codes](charts/wordcloud.png)
 
 
-Author: MD A Rahman Ruhel  
-Project Type: Exploratory Data Analysis & Storytelling  
-Date: 2025  
+
+**Author: MD A Rahman Ruhel**     
+**Project Type: Exploratory Data Analysis & Storytelling**  
+Date: Nov-2025  
+
 **Overview**  
 This project explores NYC 311 service request data of year 2024 to uncover patterns in complaints across the city. The analysis focuses on what New Yorkers complain about, when, and where, highlighting trends by borough, ZIP code, location type, and time of day/week.  
 The project combines data visualization, keyword analysis, and storytelling to reveal the city’s complaint hotspots and trends in a fun and insightful way.  
@@ -24,6 +26,9 @@ What keywords appear most frequently in complaint descriptions?
 **Dataset Size**: ~2.5 million rows (sampled for visualization)
 
 **Analysis & Visualizations**  
+
+![Top Complaint Zip Codes](charts/borough_zipcode.png)
+
 - Top Complaints: Barplots and treemaps for overall and borough-wise trends  
 - Geographical Spread:  
   - ZIP code bubble map (size shows volume of complaints)  
@@ -41,3 +46,13 @@ What keywords appear most frequently in complaint descriptions?
 - 
 **Common keywords**: “loud music,” “party,” “blocked hydrant,” “parking violation”  
 
+## 📂 Repository Structure
+
+├── README.md  
+├── The City That Never Sleeps but Complains A Lot.ipynb  
+└── charts/  
+    ├── top_zip_bubble.png  
+    ├── borough_top_complaints.png  
+    ├── weekday_patterns.png  
+    ├── location_type_bar.png  
+    └── wordcloud.png
